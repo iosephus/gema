@@ -289,6 +289,7 @@ versions of this software:
 -   Better user and developer documentation.
 -   Improved error handling.
 -   Storage of reducers results.
+-   Storage of data as compressed CSV files.
 
 Acknowledgments
 ---------------
