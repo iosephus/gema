@@ -65,25 +65,25 @@ With Leiningen:
 Options
 -------
 
-  Switches                        Default       Description
-  ------------------------------- ------------- ---------------------------------------------------------------------------
-  -h, --help                                    Show help and version info
-  -v, --verbosity NUMBER          1             Verbosity level (0-\>Quiet, 1-\>Normal, 2-\>Verbose)
-  -q, --quiet                                   Suppress most of output
-  -p, --particles NUMBER          1000          Number of particles
-  -s, --steps NUMBERS             "0 1000"      Step values (example "0 100 1000")
-  -a, --auto-steps                              Compute steps automatically using --steps as (start stop every)
-  -m, --model NAME                circle        Model (See available models below)
-  -M, --model-pars PARLIST        ""            Parameters for selected model (example "r 1.0 l 4.5")
-  -i, --init-model NAME                         Positions initialization model (Any available model, defaults to --model)
-  -I, --init-model-pars PARLIST   ""            Parameters for positions initialization model
-  -t, --trackers NAMELIST         "spatial"     Value trackers (See available trackers below)
-  -T, --trackers-pars PARLIST     ""            Parameters for selected trackers (example "trackername.mypar 0.0")
-  -r, --reducers NAMES            ""            Data reducers (See available reducers below)
-  -R, --reducers-pars PARLIST     ""            Parameters for selected reducers (example "reducername.mypar 0.0")
-  -w, --workers NUMBER                          Number of concurrent workers
-  -S, --random-seeds NUMBERS      ""            Random seeds for PRNGs
-  -d, --seed-device DEVICE        /dev/random   Binary file containing seeds or device to read them
+| Switches                       | Default      | Description                                                               |
+| ------------------------------ | ------------ | ------------------------------------------------------------------------- |
+| -h, --help                     |              | Show help and version info                                                |
+| -v, --verbosity NUMBER         | 1            | Verbosity level (0-\>Quiet, 1-\>Normal, 2-\>Verbose)                      |
+| -q, --quiet                    |              | Suppress most of output                                                   |
+| -p, --particles NUMBER         | 1000         | Number of particles                                                       |
+| -s, --steps NUMBERS            | "0 1000"     | Step values (example "0 100 1000")                                        |
+| -a, --auto-steps               |              | Compute steps automatically using --steps as (start stop every)           |
+| -m, --model NAME               | circle       | Model (See available models below)                                        |
+| -M, --model-pars PARLIST       | ""           | Parameters for selected model (example "r 1.0 l 4.5")                     |
+| -i, --init-model NAME          |              | Positions initialization model (Any available model, defaults to --model) |
+| -I, --init-model-pars PARLIST  | ""           | Parameters for positions initialization model                             |
+| -t, --trackers NAMELIST        | "spatial"    | Value trackers (See available trackers below)                             |
+| -T, --trackers-pars PARLIST    | ""           | Parameters for selected trackers (example "trackername.mypar 0.0")        |
+| -r, --reducers NAMES           | ""           | Data reducers (See available reducers below)                              |
+| -R, --reducers-pars PARLIST    | ""           | Parameters for selected reducers (example "reducername.mypar 0.0")        |
+| -w, --workers NUMBER           |              | Number of concurrent workers                                              |
+| -S, --random-seeds NUMBERS     | ""           | Random seeds for PRNGs                                                    |
+| -d, --seed-device DEVICE       | /dev/random  | Binary file containing seeds or device to read them                       |
 
 Available models: *acinarduct*, *cylinder*, *circle*, *free3d*,
 *sphere*, *segment*, *boxnd*, *pointnd*.
